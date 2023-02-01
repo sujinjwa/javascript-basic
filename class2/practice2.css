@@ -1,0 +1,13 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+}
+
+.blue-background {
+    background-color: blue;
+}
