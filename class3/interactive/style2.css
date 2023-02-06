@@ -1,0 +1,16 @@
+.carousel {
+    width: 100px;
+    display: flex;
+    overflow: auto; 
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    position: relative;
+    width: 100px;
+    flex: 0 0 auto;
+    transition: transform 1s ease-out;
+}
